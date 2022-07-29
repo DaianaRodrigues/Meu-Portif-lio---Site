@@ -1,0 +1,20 @@
+.formacoes{
+    height: 150vh;
+    background-color: #D95B96;
+}
+
+.projetos{
+    display: grid;
+    grid-template-areas: 
+    "div div div";
+    justify-items: center;
+}
+
+p{
+    text-align: justify;
+    padding: 5%;
+}
+
+.botao{
+    margin-left: 30%;
+}
