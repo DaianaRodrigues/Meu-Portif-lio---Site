@@ -15,6 +15,15 @@ p{
     padding: 5%;
 }
 
+.conteudo{
+    border: 1px solid white;
+    margin: 5%;
+}
+
 .botao{
     margin-left: 30%;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
 }
