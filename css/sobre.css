@@ -12,11 +12,14 @@
 
 h4{
     padding: 2%;
+    font-style: italic;
 }
 
 .texto{
     text-align: justify;
     border: 1px solid white;
+    font-size: 15px;
+    font-style: italic;
 }
 
 .socias{

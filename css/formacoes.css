@@ -1,5 +1,22 @@
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
 .formacoes{
-    height: 150vh;
+    height: 330vh;
     background-color: #D95B96;
 }
 
@@ -13,17 +30,78 @@
 p{
     text-align: justify;
     padding: 5%;
+    font-size: 15px;
+    font-style: italic;
 }
 
 .conteudo{
     border: 1px solid white;
     margin: 5%;
+    overflow: hidden;
+}
+
+.imagens{
+    width: 100%;
+    transition: all linear 0.4s;
+}
+
+.imagens:hover{
+    transform: scale(1.1);
+}
+
+#modal_img{
+    width: 65vw;
+}
+
+.foto-grande{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+    position: fixed;
+    visibility: hidden;
+    z-index: 1;
+    opacity: 0;
+    transition: visibility 0.8s linear, opacity 0.5s linear;
+}
+
+.extencao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#bt_close{
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    font-size: 25px;
+    border: solid 1px #fff;
+}
+
+.modal_active{
+    visibility: visible;
+    opacity: 1;
 }
 
 .botao{
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
     margin-left: 30%;
-    background-color: transparent;
-    border-radius: 50%;
-    border: 1px solid white;
-    color: white;
+    margin-bottom: 15%;
+    font-style: italic;
+}
+
+.botao:hover{
+    animation: bounce 1s;
 }
