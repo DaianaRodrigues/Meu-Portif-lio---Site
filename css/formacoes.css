@@ -16,7 +16,6 @@
 }
 
 .formacoes{
-    height: 330vh;
     background-color: #D95B96;
 }
 
@@ -29,8 +28,8 @@
 
 p{
     text-align: justify;
-    padding: 5%;
-    font-size: 15px;
+    padding: 3%;
+    font-size: 17px;
     font-style: italic;
 }
 
@@ -43,6 +42,7 @@ p{
 .imagens{
     width: 100%;
     transition: all linear 0.4s;
+    padding: 5%;
 }
 
 .imagens:hover{
@@ -104,4 +104,13 @@ p{
 
 .botao:hover{
     animation: bounce 1s;
+}
+
+.declaracao-final{
+    border: 1px solid white;
+    font-size: 20px;
+    margin: 0 10% 2% 10%;
+    padding: 2%;
+    text-align: center;
+    font-style: italic;
 }
