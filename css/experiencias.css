@@ -2,3 +2,23 @@
   width: 100%;
   height: 700px;
 }
+
+@media(max-width:800px){
+  h4{
+    padding-top: 5%;
+  }
+
+  .projetos{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .declaracao-final{
+    font-size: 17px;
+    margin-bottom: 7%;
+  }
+
+  .d-block{
+    height: 100%;
+  }
+}

@@ -70,3 +70,32 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media(max-width:800px){
+
+    .navbar{
+        display: flex;
+    }
+
+    .navbar-light .navbar-brand{
+        font-size: 25px;
+    }
+
+    .banner{
+        height: 130%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .paragrafo{
+        font-size: 15px;
+        padding-bottom: 8%;
+    }
+
+    .circulo{
+        width: 150px;
+        height: 150px;
+    }
+}
